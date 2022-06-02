@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  *main is my main function
- *Return noting
+ *Return: noting
  */
 int main(void)
 {
