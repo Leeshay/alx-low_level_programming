@@ -1,14 +1,17 @@
 #include <stdio.h>
-/*
+/**
  * main - main function
- * Return :nothing
+ * Return : nothing
  */
-int main(void){
+int main(void)
+{
        char alpha = 'a';
-	while (alpha <='z'){
+	
+       while (alpha <='z')
+       {
 		putchar(alpha);
-		putchar('\n');
 		alpha++;
-	}
+       }
+       putchar('\n');
 return (0);
 }
