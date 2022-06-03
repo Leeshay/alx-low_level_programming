@@ -2,7 +2,7 @@
 /**
  * main - main function
  * Description: print alphabet exept e and q
- * Retrun: 0
+ * Return: 0
  */
 int main(void)
 {
@@ -10,7 +10,8 @@ int main(void)
 
 	while (alpha <= 'z')
 	{
-		if (alpha == 'e' || alpha == 'q'){
+		if (alpha == 'e' || alpha == 'q')
+		{
 			alpha++;
 		}
 		putchar(alpha);
