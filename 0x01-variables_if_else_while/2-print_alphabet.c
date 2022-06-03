@@ -1,17 +1,18 @@
 #include <stdio.h>
 /**
- * main - main functio
+ * main - main function
  * Description : alphabets
- * Return : 0
+ * Return: 0
  */
 int main(void)
 {
 	char alpha = 'a';
-	while (alpha <='z')
+
+	while (alpha <= 'z')
 	{
 		putchar(alpha);
 		alpha++;
 	}
 	putchar('\n');
-return (0);
+	return (0);
 }
