@@ -6,8 +6,7 @@
  */
 int main(void)
 {
-	char word[] = '_putchar';
-	int i;
+	char word[] = "_putchar";
 
 	for (int i = 0; i < 8; i++)
 	{
