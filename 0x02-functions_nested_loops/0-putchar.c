@@ -6,13 +6,12 @@
  */
 int main(void)
 {
-	char word[7] = '_putchar';
-	int i = 0;
+	char word[] = '_putchar';
+	int i;
 
-	while (i < 7)
+	for (int i = 0; i < 8; i++)
 	{
 		_putchar(word[i]);
-		i++;
 	}
 	_putchar('\n');
 	return (0);
