@@ -7,6 +7,7 @@ int main(void)
 {
 	long int n;
 	int prime;
+	int largest;
 
 	n = 612852475143;
 	for (prime = 2; prime < n; prime++)
